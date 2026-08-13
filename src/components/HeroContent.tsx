@@ -1,13 +1,12 @@
 import React from 'react';
 import { Translations } from '../types';
+import n3Logo from '../assets/images/new_user_logo.jpg';
 
 interface HeroContentProps {
   t: Translations;
 }
 
 export const HeroContent: React.FC<HeroContentProps> = ({ t }) => {
-  const n3Logo = "https://lh3.googleusercontent.com/d/12MtKjruk9v0BX7RbcurEtFSuYOKmME7E";
-
   return (
     <div className="relative z-10 flex flex-col items-center justify-center text-center px-4 my-auto select-none">
       {/* Side-by-side Logo and Brand Text Container */}

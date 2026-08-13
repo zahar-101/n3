@@ -1189,17 +1189,14 @@ export const HomePageSections: React.FC<HomePageSectionsProps> = ({
             const currentSecData = langTexts[sec.num as keyof typeof langTexts];
             const customSecData = savedSections[sec.num];
 
-            const title = activeLang === 'ar'
-              ? (customSecData?.titleAr || currentSecData?.title || sec.titleAr)
-              : (customSecData?.titleEn || currentSecData?.title || sec.titleEn);
-
-            const desc = activeLang === 'ar'
-              ? (customSecData?.descAr !== undefined ? customSecData.descAr : (currentSecData?.desc !== undefined ? currentSecData.desc : sec.descAr))
-              : (customSecData?.descEn !== undefined ? customSecData.descEn : (currentSecData?.desc !== undefined ? currentSecData.desc : sec.descEn));
-
-            const badgeText = activeLang === 'ar'
-              ? (customSecData?.badgeAr || currentSecData?.badge || sec.badge)
-              : (customSecData?.badgeEn || currentSecData?.badge || sec.badge);
+                        const isAr = activeLang === 'ar';
+            const customTitle = isAr ? customSecData?.titleAr : customSecData?.titleEn;
+            const customDesc = isAr ? customSecData?.descAr : customSecData?.descEn;
+            const customBadge = isAr ? customSecData?.badgeAr : customSecData?.badgeEn;
+            
+            const title = customTitle || currentSecData?.title || (isAr ? sec.titleAr : sec.titleEn);
+            const desc = customDesc !== undefined ? customDesc : (currentSecData?.desc !== undefined ? currentSecData.desc : (isAr ? sec.descAr : sec.descEn));
+            const badgeText = customBadge || currentSecData?.badge || sec.badge;
 
             const secImage = customSecData?.imageUrl || sec.image;
 

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { motion } from 'motion/react';
 import { NavItem, LanguageCode, Translations } from '../types';
 import { HeroHeader } from './HeroHeader';
@@ -23,6 +23,25 @@ export const NavPageDrawer: React.FC<NavPageDrawerProps> = ({
   onOpenMenu,
   t,
 }) => {
+  const [customGallery, setCustomGallery] = useState<any[]>(() => {
+    try {
+      const saved = localStorage.getItem('n3_custom_gallery_list');
+      if (saved) return JSON.parse(saved);
+    } catch (e) {}
+    return [];
+  });
+
+  useEffect(() => {
+    const handleUpdate = () => {
+      try {
+        const saved = localStorage.getItem('n3_custom_gallery_list');
+        if (saved) setCustomGallery(JSON.parse(saved));
+      } catch(e) {}
+    };
+    window.addEventListener('n3_content_updated', handleUpdate);
+    return () => window.removeEventListener('n3_content_updated', handleUpdate);
+  }, []);
+
   if (!activePage || activePage === 'Home') return null;
 
   const getPageTitle = () => {
