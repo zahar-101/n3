@@ -1,0 +1,112 @@
+@import "tailwindcss";
+
+/* Global Arial Bold font application */
+@font-face {
+  font-family: 'ArialBoldGlobal';
+  src: local('Arial Bold'), local('Arial-BoldMT'), local('Arial');
+  font-weight: 700;
+  font-style: normal;
+}
+
+html, body, button, input, select, textarea, div, span, p, h1, h2, h3, h4, h5, h6, a, li, ul {
+  font-family: Arial, 'Arial Bold', 'Helvetica Neue', sans-serif !important;
+  font-weight: 700 !important;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  overscroll-behavior-x: none;
+}
+
+/* Ensure letter spacing NEVER breaks Arabic script joining */
+[dir="rtl"],
+[dir="rtl"] *,
+:lang(ar),
+:lang(ar) *,
+.rtl,
+.rtl * {
+  font-family: Arial, 'Arial Bold', 'Helvetica Neue', sans-serif !important;
+  font-weight: 700 !important;
+  letter-spacing: normal !important;
+}
+
+.font-outfit, .font-montserrat {
+  font-family: Arial, 'Arial Bold', sans-serif !important;
+  font-weight: 700 !important;
+}
+
+/* Custom radial gradient atmosphere matching reference background */
+.bg-hero-glow {
+  background: radial-gradient(circle at 50% 50%, rgba(35, 35, 42, 0.45) 0%, rgba(12, 12, 14, 0.95) 70%, rgba(0, 0, 0, 1) 100%);
+}
+
+/* Translucent glass card styling with high visibility and backdrop blur */
+.glass-card {
+  background-color: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.glass-card:hover {
+  background-color: rgba(255, 255, 255, 0.22);
+  border-color: rgba(255, 255, 255, 0.35);
+}
+
+/* Glass icon button utility */
+.glass-button {
+  background-color: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.glass-button:hover {
+  background-color: rgba(255, 255, 255, 0.22);
+  border-color: rgba(255, 255, 255, 0.35);
+}
+
+/* Scrollbar hide */
+::-webkit-scrollbar {
+  display: none;
+}
+* {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Keyframe Animations for Smooth Transitions */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes floatSlow {
+  0%, 100% {
+    transform: translateY(0px) scale(1);
+  }
+  50% {
+    transform: translateY(-12px) scale(1.03);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.35s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-float-slow {
+  animation: floatSlow 4s ease-in-out infinite;
+}
+
+/* Hardware accelerated smooth GPU rendering for cards */
+.glass-card, .glass-button {
+  will-change: transform, opacity;
+}
+

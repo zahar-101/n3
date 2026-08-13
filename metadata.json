@@ -1,0 +1,6 @@
+{
+  "name": "N3 - PROJECT N3 ORGANIZER",
+  "description": "PROJECT N3 ORGANIZER luxury event curation and VIP lifestyle management portal.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
