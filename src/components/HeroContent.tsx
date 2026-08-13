@@ -12,9 +12,12 @@ export const HeroContent: React.FC<HeroContentProps> = ({ t }) => {
       {/* Side-by-side Logo and Brand Text Container */}
       <div className="flex flex-col md:flex-row items-center justify-center gap-4 sm:gap-6 md:gap-8 my-auto animate-float-slow">
         {/* N3 Logo Emblem beside the text */}
-        <div className="relative w-24 h-24 sm:w-28 sm:h-28 md:w-36 md:h-36 shrink-0 rounded-full p-1 bg-gradient-to-b from-red-600/60 via-red-500/20 to-transparent border border-red-500/60 shadow-[0_0_40px_rgba(220,38,38,0.85)]">
+        <div className="relative w-24 h-24 sm:w-28 sm:h-28 md:w-36 md:h-36 shrink-0 rounded-full p-1 bg-gradient-to-b from-red-600/60 via-red-500/20 to-transparent border border-red-500/60 shadow-[0_0_40px_rgba(220,38,38,0.85)] overflow-hidden">
           <img
-            src={n3Logo}
+            src="https://lh3.googleusercontent.com/d/1ll9uHgiJWznxI0I45oylYcpbhoFS3IIy"
+            onError={(e) => {
+              (e.target as HTMLImageElement).src = n3Logo;
+            }}
             alt="N3 Logo"
             className="w-full h-full object-cover rounded-full drop-shadow-2xl hover:scale-105 transition-transform duration-500"
             loading="eager"

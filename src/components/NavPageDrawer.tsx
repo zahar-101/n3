@@ -194,6 +194,104 @@ export const NavPageDrawer: React.FC<NavPageDrawerProps> = ({
                     desc: 'تصوير فوتوغرافي احترافي، توثيق فيديو بدقة 4K، تصوير درون جوي، وإنتاج إعلامي متكامل.',
                     image: 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=800&q=80',
                   },
+                ] : currentLanguage === 'zh' ? [
+                  {
+                    title: '活动策划与全案管理',
+                    num: '01',
+                    desc: '从概念构思、预算编制、物料统筹到现场总控的全流程活动管理。',
+                    image: 'https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=800&q=80',
+                  },
+                  {
+                    title: '企业商务活动',
+                    num: '02',
+                    desc: '高端晚宴、高管峰会、新品发布会、企业团建与品牌公关活动。',
+                    image: 'https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=800&q=80',
+                  },
+                  {
+                    title: '私人定制庆典',
+                    num: '03',
+                    desc: '奢华生日派对、结婚纪念、独栋庄园聚会与高规格私密聚会。',
+                    image: 'https://images.unsplash.com/photo-1528605248644-14dd04022da1?auto=format&fit=crop&w=800&q=80',
+                  },
+                  {
+                    title: '大型节庆与博览会',
+                    num: '04',
+                    desc: '大型音乐节、文化艺术展、品牌巡展及综合性户外展览。',
+                    image: 'https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&w=800&q=80',
+                  },
+                  {
+                    title: '体育赛事与健康',
+                    num: '05',
+                    desc: '健身锦标赛、趣味跑、瑜伽静修营及定制体育赛事。',
+                    image: 'https://images.unsplash.com/photo-1506703719100-a0f3a48c0f86?auto=format&fit=crop&w=800&q=80',
+                  },
+                  {
+                    title: '演艺娱乐与演出',
+                    num: '06',
+                    desc: '现场音乐会、顶级DJ表演、舞台灯光秀及专业艺人统筹。',
+                    image: 'https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=800&q=80',
+                  },
+                  {
+                    title: '活动工程与舞美制作',
+                    num: '07',
+                    desc: '舞台设计搭建、灯光音响工程、高清LED大屏及现场技术统筹。',
+                    image: 'https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=800&q=80',
+                  },
+                  {
+                    title: '影视摄影与全案记录',
+                    num: '08',
+                    desc: '专业摄影摄像、4K高清视频录制、无人机航拍及全流程宣发内容制作。',
+                    image: 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=800&q=80',
+                  },
+                ] : currentLanguage === 'tr' ? [
+                  {
+                    title: 'ETKİNLİK PLANLAMA & YÖNETİMİ',
+                    num: '01',
+                    desc: 'Fikir aşamasından bütçelendirmeye, tedarikçi yönetiminden saha operasyonuna tam kapsamlı etkinlik yönetimi.',
+                    image: 'https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=800&q=80',
+                  },
+                  {
+                    title: 'KURUMSAL ETKİNLİKLER',
+                    num: '02',
+                    desc: 'Gala yemekleri, yönetici zirveleri, ürün lansmanları ve kurumsal şirket buluşmaları.',
+                    image: 'https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=800&q=80',
+                  },
+                  {
+                    title: 'ÖZEL KUTLAMALAR',
+                    num: '03',
+                    desc: 'Kişiye özel doğum günleri, yıldönümleri, lüks villa partileri ve VIP buluşmalar.',
+                    image: 'https://images.unsplash.com/photo-1528605248644-14dd04022da1?auto=format&fit=crop&w=800&q=80',
+                  },
+                  {
+                    title: 'FESTİVAL & FUARLAR',
+                    num: '04',
+                    desc: 'Büyük çaplı müzik festivalleri, kültürel fuarlar, ürün tanıtımları ve açık hava gösterileri.',
+                    image: 'https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&w=800&q=80',
+                  },
+                  {
+                    title: 'SPOR & WELLNESS',
+                    num: '05',
+                    desc: 'Fitness yarışmaları, koşu etkinlikleri, yoga kampları ve spor turnuvaları.',
+                    image: 'https://images.unsplash.com/photo-1506703719100-a0f3a48c0f86?auto=format&fit=crop&w=800&q=80',
+                  },
+                  {
+                    title: 'EĞLENCE & ŞOVLAR',
+                    num: '06',
+                    desc: 'Canlı konserler, DJ performansları, sahne gösterileri ve ışık şovları.',
+                    image: 'https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=800&q=80',
+                  },
+                  {
+                    title: 'ETKİNLİK PRODÜKSİYONU',
+                    num: '07',
+                    desc: 'Sahne tasarımı, ses mühendisliği, LED ekranlar, aydınlatma ve teknik kurulum.',
+                    image: 'https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=800&q=80',
+                  },
+                  {
+                    title: 'MEDYA & BELGELEME',
+                    num: '08',
+                    desc: 'Profesyonel fotoğrafçılık, 4K video kaydı, drone çekimleri ve post-prodüksiyon.',
+                    image: 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=800&q=80',
+                  },
                 ] : currentLanguage === 'ru' ? [
                   {
                     title: 'ОРГАНИЗАЦИЯ И МЕНЕДЖМЕНТ СОБЫТИЙ',
@@ -442,183 +540,311 @@ export const NavPageDrawer: React.FC<NavPageDrawerProps> = ({
 
         {activePage === 'About Us' && (
           <div className="space-y-12 max-w-5xl mx-auto">
-            {/* --- SECTION #01: WHO WE ARE --- */}
-            <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: '-30px' }}
-              transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
-              className="p-8 sm:p-10 rounded-3xl bg-gradient-to-br from-black/80 via-black/60 to-black/80 border border-[#f3e5ab]/30 shadow-2xl relative overflow-hidden"
-            >
-              <div className="absolute top-0 right-0 w-64 h-64 bg-red-600/10 rounded-full blur-3xl pointer-events-none" />
-              
-              <div className="relative z-10 space-y-4">
-                <div className="flex items-center gap-2">
-                  <span className="px-3 py-1 rounded-full bg-red-600/20 border border-red-500/40 text-[10px] font-black text-red-400 tracking-widest uppercase">
-                    {currentLanguage === 'ar' ? 'من نحن' : 'WHO WE ARE'}
-                  </span>
-                  <span className="text-xs font-bold text-[#f3e5ab] uppercase tracking-wider">
-                    {currentLanguage === 'ar' ? 'المنظم' : 'ORGANIZER'}
-                  </span>
-                </div>
-
-                <h3 className="text-2xl sm:text-3xl font-black text-white leading-snug uppercase tracking-tight">
-                  {currentLanguage === 'ar'
-                    ? 'منظم فعاليات وإدارة فعاليات — بالي، إندونيسيا'
-                    : currentLanguage === 'id'
-                    ? 'PENYELENGGARA ACARA & MANAJEMEN ACARA — Bali, Indonesia'
-                    : 'EVENT ORGANIZER & EVENT MANAGEMENT — Bali, Indonesia'}
-                </h3>
-
-                <p className="text-sm sm:text-base text-neutral-300 leading-relaxed font-medium">
-                  {currentLanguage === 'ar'
-                    ? 'نحن نبتكر تجارب هادفة من خلال مفاهيم مدروسة، وتنفيذ مهني، واهتمام استثنائي بالتفاصيل.'
-                    : currentLanguage === 'id'
-                    ? 'Kami menciptakan pengalaman bermakna melalui konsep terencana, eksekusi profesional, dan perhatian luar biasa terhadap detail.'
-                    : 'We create meaningful experiences through thoughtful concepts, professional execution, and exceptional attention to detail.'}
-                </p>
-
-                {/* 3 Pillars Bullets */}
-                <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-4">
-                  {(currentLanguage === 'ar' ? [
+            {/* Dynamic Multilingual About Us Content */}
+            {(() => {
+              const aboutI18n = {
+                ar: {
+                  whoBadge: 'من نحن',
+                  organizerBadge: 'المنظم',
+                  headline: 'منظم فعاليات وإدارة فعاليات — بالي، إندونيسيا',
+                  intro: 'نحن نبتكر تجارب هادفة من خلال مفاهيم مدروسة، وتنفيذ مهني، واهتمام استثنائي بالتفاصيل.',
+                  pillars: [
                     { title: 'صنع تجارب', desc: 'ابتكار لحظات استثنائية تترك أثراً دائماً.', icon: Sparkles },
                     { title: 'ربط الأشخاص', desc: 'بناء روابط معنوية وقوية بين الجمهور والفعالية.', icon: Users },
                     { title: 'جعل اللحظات مهمة', desc: 'عناية فائقة بكافة التفاصيل الدقيقة.', icon: CheckCircle2 }
-                  ] : currentLanguage === 'id' ? [
+                  ],
+                  whyTitle: 'لماذا PROJECT N3 ORGANIZER',
+                  whyDesc: 'PROJECT N3 ORGANIZER هي شركة تنظيم فعاليات مقرها بالي متخصصة في تخطيط وإدارة وتنفيذ الفعاليات المميزة. نحن نجمع بين الإبداع وإدارة الفعاليات الاحترافية والتنفيذ التشغيلي القوي لتقديم فعاليات متكاملة واستثنائية.',
+                  approachBadge: 'نهجنا',
+                  aboutBadge: 'عن الشركة',
+                  approachTitle: 'نهجنا بسيط وفعال',
+                  approachDesc: 'PROJECT N3 ORGANIZER تقدم حلولاً متكاملة لتنظيم الفعاليات في بالي، من التجمعات الخاصة إلى الفعاليات الكبرى والمهرجانات والبرامج الترفيهية مع تخطيط متقن وتنفيذ دقيق.',
+                  steps: [
+                    { step: '01', name: 'الفكرة', label: 'CONCEPT' },
+                    { step: '02', name: 'التخطيط', label: 'PLAN' },
+                    { step: '03', name: 'التنفيذ', label: 'EXECUTE' },
+                    { step: '04', name: 'التجربة', label: 'EXPERIENCE' }
+                  ],
+                  directContact: 'تواصل مباشر',
+                  inquireNow: 'استفسر الآن'
+                },
+                zh: {
+                  whoBadge: '关于我们',
+                  organizerBadge: '活动统筹',
+                  headline: '活动策划与全案管理 — 印尼巴厘岛',
+                  intro: '我们通过严谨的策划构想、专业的现场执行与极致的细节打磨，打造充满意义且难以忘怀的精彩盛会。',
+                  pillars: [
+                    { title: '创造非凡体验', desc: '精心雕琢每一个难忘瞬间，留下恒久记忆。', icon: Sparkles },
+                    { title: '凝聚人际连接', desc: '在品牌、嘉宾与观众之间建立深厚的情感共鸣。', icon: Users },
+                    { title: '成就精彩时刻', desc: '对活动全流程的每一处细节精益求精。', icon: CheckCircle2 }
+                  ],
+                  whyTitle: '为什么选择 PROJECT N3 ORGANIZER',
+                  whyDesc: 'PROJECT N3 ORGANIZER 是立足于印尼巴厘岛的专业活动策划机构，专注于高品质活动的统筹、策划与全方位执行。我们将创新灵感、专业管理与强大执行力深度融合，不仅确保活动井然有序，更赋予其深远价值。从私密高端派对、大型企业年会、音乐节，到健康养生盛会及娱乐演出，我们为每位客户提供一站式定制化解决方案。',
+                  approachBadge: '核心优势',
+                  aboutBadge: '关于我们',
+                  approachTitle: '我们的方法：简单高效，精益求精',
+                  approachDesc: 'PROJECT N3 ORGANIZER 是一家位于巴厘岛的专业活动策划团队，致力于打造震撼人心的卓越盛会。\n\n我们融合创意策划、标准化统筹与高效运营，从方案构想到现场落地的每一个环节保驾护航。无论是私人庄园宴会、企业商务峰会、音乐艺术节，还是专属娱乐体验，我们均量身定制专属方案。',
+                  steps: [
+                    { step: '01', name: '策划构思', label: 'CONCEPT' },
+                    { step: '02', name: '统筹规划', label: 'PLAN' },
+                    { step: '03', name: '专业执行', label: 'EXECUTE' },
+                    { step: '04', name: '极致体验', label: 'EXPERIENCE' }
+                  ],
+                  directContact: '直接联系方式',
+                  inquireNow: '立即咨询'
+                },
+                tr: {
+                  whoBadge: 'HAKKIMIZDA',
+                  organizerBadge: 'ORGANİZATÖR',
+                  headline: 'ETKİNLİK ORGANİZASYONU & YÖNETİMİ — Bali, Endonezya',
+                  intro: 'Düşünceli konseptler, profesyonel uygulama ve olağanüstü detay hassasiyetiyle anlamlı deneyimler yaratıyoruz.',
+                  pillars: [
+                    { title: 'Deneyim Yaratmak', desc: 'Kalıcı ve olağanüstü anlar inşa ediyoruz.', icon: Sparkles },
+                    { title: 'İnsanları Birleştirmek', desc: 'Markalar ve izleyiciler arasında güçlü bağlar kuruyoruz.', icon: Users },
+                    { title: 'Her Anı Değerli Kılmak', desc: 'Her bir detaya titiz ve kusursuz özen gösteriyoruz.', icon: CheckCircle2 }
+                  ],
+                  whyTitle: 'NEDEN PROJECT N3 ORGANIZER',
+                  whyDesc: 'PROJECT N3 ORGANIZER, unutulmaz etkinliklerin planlanması, yönetimi ve kusursuz uygulanmasında uzmanlaşmış Bali merkezli bir Etkinlik Organizatörüdür. Yaratıcılığı, profesyonel yönetimi ve güçlü operasyonel gücü birleştirerek sadece düzenli değil, aynı zamanda anlamlı etkinlikler sunuyoruz. Özel kutlamalardan kurumsal galalara, festivallerden wellness etkinliklerine kadar her ihtiyaca özel uçtan uca çözümler sağlıyoruz.',
+                  approachBadge: 'YAKLAŞIMIMIZ',
+                  aboutBadge: 'HAKKIMIZDA',
+                  approachTitle: 'YAKLAŞIMIMIZ BASİT VE ETKİLİDİR',
+                  approachDesc: 'PROJECT N3 ORGANIZER, unutulmaz anlar yaratma konusunda uzmanlaşmış Bali merkezli lider bir etkinlik ajansıdır.\n\nYaratıcılığı, profesyonel planlamayı ve güçlü operasyonu bir araya getirerek her etkinliği unutulmaz bir deneyime dönüştürüyoruz.',
+                  steps: [
+                    { step: '01', name: 'KONSEPT', label: 'FİKİR' },
+                    { step: '02', name: 'PLANLAMA', label: 'STRATEJİ' },
+                    { step: '03', name: 'UYGULAMA', label: 'OPERASYON' },
+                    { step: '04', name: 'DENEYİM', label: 'ANILAR' }
+                  ],
+                  directContact: 'Doğrudan İletişim',
+                  inquireNow: 'Hemen Danışın'
+                },
+                ru: {
+                  whoBadge: 'О НАС',
+                  organizerBadge: 'ОРГАНИЗАТОР',
+                  headline: 'ОРГАНИЗАЦИЯ И МЕНЕДЖМЕНТ МЕРОПРИЯТИЙ — Бали, Индонезия',
+                  intro: 'Мы создаем значимые события благодаря продуманным концепциям, профессиональному исполнению и вниманию к каждой детали.',
+                  pillars: [
+                    { title: 'Создание Впечатлений', desc: 'Создаем незабываемые моменты, которые остаются навсегда.', icon: Sparkles },
+                    { title: 'Объединение Людей', desc: 'Выстраиваем прочные связи между брендами, гостями и партнерами.', icon: Users },
+                    { title: 'Ценность Каждой Детали', desc: 'Исключительное внимание к каждому аспекту события.', icon: CheckCircle2 }
+                  ],
+                  whyTitle: 'ПОЧЕМУ PROJECT N3 ORGANIZER',
+                  whyDesc: 'PROJECT N3 ORGANIZER — агентство по организации мероприятий на Бали, специализирующееся на планировании, управлении и проведении ярких событий. Мы объединяем креативность, профессиональный менеджмент и надежное операционное исполнение для создания мероприятий, которые вдохновляют и надолго остаются в памяти.',
+                  approachBadge: 'НАШ ПОДХОД',
+                  aboutBadge: 'О НАС',
+                  approachTitle: 'НАШ ПОДХОД: ПРОСТОЙ И ЭФФЕКТИВНЫЙ',
+                  approachDesc: 'PROJECT N3 ORGANIZER — ведущий организатор мероприятий на Бали, создающий яркие и безупречные события.\n\nМы объединяем креативные идеи, профессиональное планирование и безупречное проведение для достижения наивысших результатов.',
+                  steps: [
+                    { step: '01', name: 'КОНЦЕПЦИЯ', label: 'ИДЕЯ' },
+                    { step: '02', name: 'ПЛАН', label: 'СТРАТЕГИЯ' },
+                    { step: '03', name: 'ИСПОЛНЕНИЕ', label: 'ОПЕРАЦИИ' },
+                    { step: '04', name: 'ВПЕЧАТЛЕНИЯ', label: 'ПАМЯТЬ' }
+                  ],
+                  directContact: 'Прямые Контакты',
+                  inquireNow: 'Запросить консультацию'
+                },
+                id: {
+                  whoBadge: 'TENTANG KAMI',
+                  organizerBadge: 'ORGANIZER',
+                  headline: 'PENYELENGGARA ACARA & MANAJEMEN ACARA — Bali, Indonesia',
+                  intro: 'Kami menciptakan pengalaman bermakna melalui konsep terencana, eksekusi profesional, dan perhatian luar biasa terhadap detail.',
+                  pillars: [
                     { title: 'Menciptakan Pengalaman', desc: 'Membuat momen luar biasa dan tak terlupakan.', icon: Sparkles },
                     { title: 'Menghubungkan Orang', desc: 'Mempererat hubungan antara merek dan audiens.', icon: Users },
                     { title: 'Menjadikan Momen Berharga', desc: 'Detail luar biasa pada setiap aspek acara.', icon: CheckCircle2 }
-                  ] : [
+                  ],
+                  whyTitle: 'MENGAPA PROJECT N3 ORGANIZER',
+                  whyDesc: 'PROJECT N3 ORGANIZER adalah Penyelenggara Acara berbasis di Bali yang berspesialisasi dalam perencanaan, manajemen, dan eksekusi acara berkesan. Kami menggabungkan kreativitas, manajemen acara profesional, dan eksekusi operasional yang kuat untuk menghadirkan acara yang terorganisir dengan baik, bermakna, dan tak terlupakan.',
+                  approachBadge: 'PENDEKATAN KAMI',
+                  aboutBadge: 'TENTANG KAMI',
+                  approachTitle: 'PENDEKATAN KAMI SEDERHANA & EFEKTIF',
+                  approachDesc: 'PROJECT ORGANIZER adalah Penyelenggara Acara berbasis di Bali yang berspesialisasi dalam perencanaan, manajemen, dan eksekusi acara berkesan.\n\nKami menggabungkan kreativitas, manajemen acara profesional, dan eksekusi operasional yang kuat untuk menghadirkan acara yang terorganisir dengan baik, bermakna, dan tak terlupakan.',
+                  steps: [
+                    { step: '01', name: 'KONSEP', label: 'IDEASI' },
+                    { step: '02', name: 'RENCANA', label: 'STRATEGI' },
+                    { step: '03', name: 'EKSEKUSI', label: 'OPERASIONAL' },
+                    { step: '04', name: 'PENGALAMAN', label: 'KENANGAN' }
+                  ],
+                  directContact: 'Kontak Langsung',
+                  inquireNow: 'Tanya Sekarang'
+                },
+                en: {
+                  whoBadge: 'WHO WE ARE',
+                  organizerBadge: 'ORGANIZER',
+                  headline: 'EVENT ORGANIZER & EVENT MANAGEMENT — Bali, Indonesia',
+                  intro: 'We create meaningful experiences through thoughtful concepts, professional execution, and exceptional attention to detail.',
+                  pillars: [
                     { title: 'Creating Experiences', desc: 'Crafting extraordinary moments that last.', icon: Sparkles },
                     { title: 'Connecting People', desc: 'Building meaningful connections between people.', icon: Users },
                     { title: 'Making Moments Matter', desc: 'Meticulous attention to every single detail.', icon: CheckCircle2 }
-                  ]).map((pillar, pIdx) => {
-                    const PIcon = pillar.icon;
-                    return (
-                      <div key={pIdx} className="p-4 rounded-xl bg-white/5 border border-white/10 flex flex-col justify-between hover:border-red-500/40 transition-all">
-                        <div className="flex items-center gap-2 mb-2">
-                          <PIcon className="w-4 h-4 text-red-400" />
-                          <h4 className="font-bold text-xs text-white uppercase">{pillar.title}</h4>
-                        </div>
-                        <p className="text-[11px] text-neutral-300 leading-relaxed">{pillar.desc}</p>
+                  ],
+                  whyTitle: 'WHY PROJECT N3 ORGANIZER',
+                  whyDesc: 'PROJECT N3 ORGANIZER is a Bali-based Event Organizer specializing in the planning, management, and execution of memorable events. We combine creativity, professional event management, and strong operational execution to deliver events that are not only well-organized, but also meaningful and memorable. From intimate private gatherings to large-scale corporate events, festivals, wellness experiences, and entertainment programs, we provide end-to-end solutions tailored to each client\'s needs.',
+                  approachBadge: 'WHY US',
+                  aboutBadge: 'ABOUT US',
+                  approachTitle: 'OUR APPROACH IS SIMPLE & EFFECTIVE',
+                  approachDesc: 'PROJECT ORGANIZER is a Bali-based Event Organizer specializing in the planning, management, and execution of memorable events.\n\nWe combine creativity, professional event management, and strong operational execution to deliver events that are not only well-organized, but also meaningful and memorable. From intimate private gatherings to large-scale corporate events, festivals, wellness experiences, and entertainment programs, we provide end-to-end solutions tailored to each client\'s needs.',
+                  steps: [
+                    { step: '01', name: 'CONCEPT', label: 'IDEATION' },
+                    { step: '02', name: 'PLAN', label: 'STRATEGY' },
+                    { step: '03', name: 'EXECUTE', label: 'OPERATION' },
+                    { step: '04', name: 'EXPERIENCE', label: 'MEMORIES' }
+                  ],
+                  directContact: 'Direct Contact',
+                  inquireNow: 'Inquire Now'
+                }
+              };
+
+              const currentAbout = aboutI18n[currentLanguage] || aboutI18n.en;
+
+              return (
+                <>
+                  {/* --- SECTION #01: WHO WE ARE --- */}
+                  <motion.div
+                    initial={{ opacity: 0, y: 30 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true, margin: '-30px' }}
+                    transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
+                    className="p-8 sm:p-10 rounded-3xl bg-gradient-to-br from-black/80 via-black/60 to-black/80 border border-[#f3e5ab]/30 shadow-2xl relative overflow-hidden"
+                  >
+                    <div className="absolute top-0 right-0 w-64 h-64 bg-red-600/10 rounded-full blur-3xl pointer-events-none" />
+                    
+                    <div className="relative z-10 space-y-4">
+                      <div className="flex items-center gap-2">
+                        <span className="px-3 py-1 rounded-full bg-red-600/20 border border-red-500/40 text-[10px] font-black text-red-400 tracking-widest uppercase">
+                          {currentAbout.whoBadge}
+                        </span>
+                        <span className="text-xs font-bold text-[#f3e5ab] uppercase tracking-wider">
+                          {currentAbout.organizerBadge}
+                        </span>
                       </div>
-                    );
-                  })}
-                </div>
 
-                {/* WHY PROJECT N3 ORGANIZER Red Heading & Description */}
-                <div className="p-5 rounded-2xl bg-black/60 border border-white/10 space-y-2 mt-4">
-                  <h4 className="text-sm sm:text-base font-black text-red-600 uppercase tracking-wider">
-                    WHY PROJECT N3 ORGANIZER
-                  </h4>
-                  <p className="text-xs sm:text-sm text-neutral-300 leading-relaxed font-medium">
-                    PROJECT N3 ORGANIZER is a Bali-based Event Organizer specializing in the planning, management, and execution of memorable events. We combine creativity, professional event management, and strong operational execution to deliver events that are not only well-organized, but also meaningful and memorable. From intimate private gatherings to large-scale corporate events, festivals, wellness experiences, and entertainment programs, we provide end-to-end solutions tailored to each client's needs.
-                  </p>
-                </div>
-              </div>
-            </motion.div>
+                      <h3 className="text-2xl sm:text-3xl font-black text-white leading-snug uppercase tracking-tight">
+                        {currentAbout.headline}
+                      </h3>
 
-            {/* --- SECTION #02: WHY PROJECT? / OUR APPROACH --- */}
-            <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: '-30px' }}
-              transition={{ duration: 0.6, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
-              className="p-8 sm:p-10 rounded-3xl bg-black/80 border border-white/15 space-y-6"
-            >
-              <div className="flex items-center gap-2">
-                <span className="px-3 py-1 rounded-full bg-amber-500/20 border border-amber-500/40 text-[10px] font-black text-[#f3e5ab] tracking-widest uppercase">
-                  {currentLanguage === 'ar' ? 'لماذا مشروعنا؟' : 'WHY PROJECT?'}
-                </span>
-                <span className="text-xs font-bold text-neutral-400 uppercase tracking-wider">
-                  {currentLanguage === 'ar' ? 'عن الشركة' : 'ABOUT US'}
-                </span>
-              </div>
+                      <p className="text-sm sm:text-base text-neutral-300 leading-relaxed font-medium">
+                        {currentAbout.intro}
+                      </p>
 
-              <h3 className="text-xl sm:text-2xl font-black text-[#f3e5ab] uppercase tracking-wider">
-                {currentLanguage === 'ar' ? 'نهجنا بسيط وفعال' : 'OUR APPROACH IS SIMPLE & EFFECTIVE'}
-              </h3>
+                      {/* 3 Pillars Bullets */}
+                      <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-4">
+                        {currentAbout.pillars.map((pillar, pIdx) => {
+                          const PIcon = pillar.icon;
+                          return (
+                            <div key={pIdx} className="p-4 rounded-xl bg-white/5 border border-white/10 flex flex-col justify-between hover:border-red-500/40 transition-all">
+                              <div className="flex items-center gap-2 mb-2">
+                                <PIcon className="w-4 h-4 text-red-400" />
+                                <h4 className="font-bold text-xs text-white uppercase">{pillar.title}</h4>
+                              </div>
+                              <p className="text-[11px] text-neutral-300 leading-relaxed">{pillar.desc}</p>
+                            </div>
+                          );
+                        })}
+                      </div>
 
-              <p className="text-sm sm:text-base text-neutral-300 leading-relaxed font-normal whitespace-pre-line">
-                {currentLanguage === 'ar'
-                  ? 'PROJECT ORGANIZER هي شركة تنظيم فعاليات مقرها بالي متخصصة في تخطيط وإدارة وتنفيذ الفعاليات المميزة.\n\nنحن نجمع بين الإبداع وإدارة الفعاليات الاحترافية والتنفيذ التشغيلي القوي لتقديم فعاليات ليست فقط منظمة بل ذات مغزى ولاتنسى. من التجمعات الخاصة إلى الفعاليات الكبرى والمهرجانات والبرامج الترفيهية، نقدم حلولاً متكاملة مخصصة لكل عميل.'
-                  : currentLanguage === 'id'
-                  ? 'PROJECT ORGANIZER adalah Penyelenggara Acara berbasis di Bali yang berspesialisasi dalam perencanaan, manajemen, dan eksekusi acara berkesan.\n\nKami menggabungkan kreativitas, manajemen acara profesional, dan eksekusi operasional yang kuat untuk menghadirkan acara yang terorganisir dengan baik, bermakna, dan tak terlupakan.'
-                  : 'PROJECT ORGANIZER is a Bali-based Event Organizer specializing in the planning, management, and execution of memorable events.\n\nWe combine creativity, professional event management, and strong operational execution to deliver events that are not only well-organized, but also meaningful and memorable. From intimate private gatherings to large-scale corporate events, festivals, wellness experiences, and entertainment programs, we provide end-to-end solutions tailored to each client\'s needs.'}
-              </p>
+                      {/* WHY PROJECT N3 ORGANIZER Red Heading & Description */}
+                      <div className="p-5 rounded-2xl bg-black/60 border border-white/10 space-y-2 mt-4">
+                        <h4 className="text-sm sm:text-base font-black text-red-600 uppercase tracking-wider">
+                          {currentAbout.whyTitle}
+                        </h4>
+                        <p className="text-xs sm:text-sm text-neutral-300 leading-relaxed font-medium">
+                          {currentAbout.whyDesc}
+                        </p>
+                      </div>
+                    </div>
+                  </motion.div>
 
-              {/* 4 Steps Workflow Cards */}
-              <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-2">
-                {(currentLanguage === 'ar' ? [
-                  { step: '01', name: 'الفكرة', label: 'CONCEPT' },
-                  { step: '02', name: 'التخطيط', label: 'PLAN' },
-                  { step: '03', name: 'التنفيذ', label: 'EXECUTE' },
-                  { step: '04', name: 'التجربة', label: 'EXPERIENCE' }
-                ] : [
-                  { step: '01', name: 'CONCEPT', label: 'IDEATION' },
-                  { step: '02', name: 'PLAN', label: 'STRATEGY' },
-                  { step: '03', name: 'EXECUTE', label: 'OPERATION' },
-                  { step: '04', name: 'EXPERIENCE', label: 'MEMORIES' }
-                ]).map((st, idx) => (
-                  <div key={idx} className="p-4 rounded-2xl bg-white/5 border border-white/10 hover:border-[#f3e5ab]/50 text-center transition-all group">
-                    <span className="block text-xs font-mono font-black text-red-500 mb-1">{st.step}</span>
-                    <h5 className="font-extrabold text-xs sm:text-sm text-white group-hover:text-[#f3e5ab] transition-colors uppercase tracking-wider">{st.name}</h5>
-                    <span className="block text-[10px] text-neutral-400 mt-1 uppercase tracking-widest">{st.label}</span>
+                  {/* --- SECTION #02: WHY PROJECT? / OUR APPROACH --- */}
+                  <motion.div
+                    initial={{ opacity: 0, y: 30 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true, margin: '-30px' }}
+                    transition={{ duration: 0.6, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
+                    className="p-8 sm:p-10 rounded-3xl bg-black/80 border border-white/15 space-y-6"
+                  >
+                    <div className="flex items-center gap-2">
+                      <span className="px-3 py-1 rounded-full bg-amber-500/20 border border-amber-500/40 text-[10px] font-black text-[#f3e5ab] tracking-widest uppercase">
+                        {currentAbout.approachBadge}
+                      </span>
+                      <span className="text-xs font-bold text-neutral-400 uppercase tracking-wider">
+                        {currentAbout.aboutBadge}
+                      </span>
+                    </div>
+
+                    <h3 className="text-xl sm:text-2xl font-black text-[#f3e5ab] uppercase tracking-wider">
+                      {currentAbout.approachTitle}
+                    </h3>
+
+                    <p className="text-sm sm:text-base text-neutral-300 leading-relaxed font-normal whitespace-pre-line">
+                      {currentAbout.approachDesc}
+                    </p>
+
+                    {/* 4 Steps Workflow Cards */}
+                    <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-2">
+                      {currentAbout.steps.map((st, idx) => (
+                        <div key={idx} className="p-4 rounded-2xl bg-white/5 border border-white/10 hover:border-[#f3e5ab]/50 text-center transition-all group">
+                          <span className="block text-xs font-mono font-black text-red-500 mb-1">{st.step}</span>
+                          <h5 className="font-extrabold text-xs sm:text-sm text-white group-hover:text-[#f3e5ab] transition-colors uppercase tracking-wider">{st.name}</h5>
+                          <span className="block text-[10px] text-neutral-400 mt-1 uppercase tracking-widest">{st.label}</span>
+                        </div>
+                      ))}
+                    </div>
+                  </motion.div>
+
+                  {/* Stats */}
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 text-center">
+                    <motion.div
+                      initial={{ opacity: 0, y: 30 }}
+                      whileInView={{ opacity: 1, y: 0 }}
+                      viewport={{ once: true, margin: '-30px' }}
+                      transition={{ duration: 0.6, delay: 0.15, ease: [0.16, 1, 0.3, 1] }}
+                      className="p-6 rounded-2xl bg-white/5 border border-white/10"
+                    >
+                      <span className="text-3xl font-extrabold text-white">500+</span>
+                      <span className="block text-xs sm:text-sm text-neutral-300 mt-2">{t.aboutStat1}</span>
+                    </motion.div>
+                    <motion.div
+                      initial={{ opacity: 0, y: 30 }}
+                      whileInView={{ opacity: 1, y: 0 }}
+                      viewport={{ once: true, margin: '-30px' }}
+                      transition={{ duration: 0.6, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
+                      className="p-6 rounded-2xl bg-white/5 border border-white/10"
+                    >
+                      <span className="text-3xl font-extrabold text-white">24/7</span>
+                      <span className="block text-xs sm:text-sm text-neutral-300 mt-2">{t.aboutStat2}</span>
+                    </motion.div>
                   </div>
-                ))}
-              </div>
-            </motion.div>
 
-            {/* Stats */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 text-center">
-              <motion.div
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, margin: '-30px' }}
-                transition={{ duration: 0.6, delay: 0.15, ease: [0.16, 1, 0.3, 1] }}
-                className="p-6 rounded-2xl bg-white/5 border border-white/10"
-              >
-                <span className="text-3xl font-extrabold text-white">500+</span>
-                <span className="block text-xs sm:text-sm text-neutral-300 mt-2">{t.aboutStat1}</span>
-              </motion.div>
-              <motion.div
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, margin: '-30px' }}
-                transition={{ duration: 0.6, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
-                className="p-6 rounded-2xl bg-white/5 border border-white/10"
-              >
-                <span className="text-3xl font-extrabold text-white">24/7</span>
-                <span className="block text-xs sm:text-sm text-neutral-300 mt-2">{t.aboutStat2}</span>
-              </motion.div>
-            </div>
-
-            {/* Direct Contact */}
-            <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: '-30px' }}
-              transition={{ duration: 0.6, delay: 0.25, ease: [0.16, 1, 0.3, 1] }}
-              className="space-y-3 pt-2"
-            >
-              <h4 className="text-xs font-bold uppercase tracking-wider rtl:tracking-normal text-white">
-                {currentLanguage === 'ar' ? 'تواصل مباشر' : 'Direct Contact'}
-              </h4>
-              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-                <a href="https://instagram.com/project.n3bali" target="_blank" rel="noreferrer" className="flex items-center gap-3 p-4 rounded-xl bg-white/5 border border-white/10 text-xs sm:text-sm text-neutral-200 hover:border-pink-500/50 transition-colors">
-                  <Instagram className="w-5 h-5 text-pink-400 shrink-0" />
-                  <span className="truncate">@project.n3bali</span>
-                </a>
-                <a href="https://wa.me/62895336689599" target="_blank" rel="noreferrer" className="flex items-center gap-3 p-4 rounded-xl bg-white/5 border border-white/10 text-xs sm:text-sm text-neutral-200 hover:border-emerald-500/50 transition-colors">
-                  <PhoneCall className="w-5 h-5 text-emerald-400 shrink-0" />
-                  <span>+62 895 3366 89599</span>
-                </a>
-                <a href="mailto:creativegrouplimabersama@gmail.com" className="flex items-center gap-3 p-4 rounded-xl bg-white/5 border border-white/10 text-xs sm:text-sm text-neutral-200 hover:border-red-500/50 transition-colors truncate">
-                  <Mail className="w-5 h-5 text-red-400 shrink-0" />
-                  <span className="truncate">creativegrouplimabersama@gmail.com</span>
-                </a>
-              </div>
-            </motion.div>
+                  {/* Direct Contact */}
+                  <motion.div
+                    initial={{ opacity: 0, y: 30 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true, margin: '-30px' }}
+                    transition={{ duration: 0.6, delay: 0.25, ease: [0.16, 1, 0.3, 1] }}
+                    className="space-y-3 pt-2"
+                  >
+                    <h4 className="text-xs font-bold uppercase tracking-wider rtl:tracking-normal text-white">
+                      {currentAbout.directContact}
+                    </h4>
+                    <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                      <a href="https://instagram.com/project.n3bali" target="_blank" rel="noreferrer" className="flex items-center gap-3 p-4 rounded-xl bg-white/5 border border-white/10 text-xs sm:text-sm text-neutral-200 hover:border-pink-500/50 transition-colors">
+                        <Instagram className="w-5 h-5 text-pink-400 shrink-0" />
+                        <span className="truncate">@project.n3bali</span>
+                      </a>
+                      <a href="https://wa.me/62895336689599" target="_blank" rel="noreferrer" className="flex items-center gap-3 p-4 rounded-xl bg-white/5 border border-white/10 text-xs sm:text-sm text-neutral-200 hover:border-emerald-500/50 transition-colors">
+                        <PhoneCall className="w-5 h-5 text-emerald-400 shrink-0" />
+                        <span>+62 895 3366 89599</span>
+                      </a>
+                      <a href="mailto:creativegrouplimabersama@gmail.com" className="flex items-center gap-3 p-4 rounded-xl bg-white/5 border border-white/10 text-xs sm:text-sm text-neutral-200 hover:border-red-500/50 transition-colors truncate">
+                        <Mail className="w-5 h-5 text-red-400 shrink-0" />
+                        <span className="truncate">creativegrouplimabersama@gmail.com</span>
+                      </a>
+                    </div>
+                  </motion.div>
+                </>
+              );
+            })()}
           </div>
         )}
       </div>
