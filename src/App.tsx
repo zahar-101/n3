@@ -91,7 +91,10 @@ export default function App() {
 
         {/* Full Viewport First Fold (Hero Section) */}
         <div className="relative z-10 w-full min-h-[calc(100vh-6rem)] sm:min-h-[calc(100vh-8rem)] flex flex-col justify-between flex-shrink-0">
-          {/* Main Content Area - Clean Background View */}
+          <HeroLeftSidebar t={t} />
+          <HeroRightSidebar />
+
+          {/* Clean Main Viewport Space (Hero content removed as requested) */}
           <div className="relative flex-1 flex flex-col items-center justify-center my-auto w-full z-10 py-6 sm:py-10 pointer-events-none" />
         </div>
 

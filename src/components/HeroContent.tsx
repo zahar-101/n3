@@ -1,12 +1,13 @@
 import React from 'react';
 import { Translations } from '../types';
-import n3Logo from '../assets/images/n3_logo_1786377953579.jpg';
 
 interface HeroContentProps {
   t: Translations;
 }
 
 export const HeroContent: React.FC<HeroContentProps> = ({ t }) => {
+  const n3Logo = "https://lh3.googleusercontent.com/d/12MtKjruk9v0BX7RbcurEtFSuYOKmME7E";
+
   return (
     <div className="relative z-10 flex flex-col items-center justify-center text-center px-4 my-auto select-none">
       {/* Side-by-side Logo and Brand Text Container */}
@@ -14,10 +15,7 @@ export const HeroContent: React.FC<HeroContentProps> = ({ t }) => {
         {/* N3 Logo Emblem beside the text */}
         <div className="relative w-24 h-24 sm:w-28 sm:h-28 md:w-36 md:h-36 shrink-0 rounded-full p-1 bg-gradient-to-b from-red-600/60 via-red-500/20 to-transparent border border-red-500/60 shadow-[0_0_40px_rgba(220,38,38,0.85)] overflow-hidden">
           <img
-            src="https://lh3.googleusercontent.com/d/1ll9uHgiJWznxI0I45oylYcpbhoFS3IIy"
-            onError={(e) => {
-              (e.target as HTMLImageElement).src = n3Logo;
-            }}
+            src={n3Logo}
             alt="N3 Logo"
             className="w-full h-full object-cover rounded-full drop-shadow-2xl hover:scale-105 transition-transform duration-500"
             loading="eager"

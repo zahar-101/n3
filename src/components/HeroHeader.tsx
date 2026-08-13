@@ -2,7 +2,6 @@ import React, { useState, useRef, useEffect } from 'react';
 import { NavItem, LanguageCode, Translations } from '../types';
 import { LANGUAGES } from '../data/languages';
 import { Globe, ChevronDown, ShieldCheck } from 'lucide-react';
-import n3Logo from '../assets/images/n3_logo_1786377953579.jpg';
 
 interface HeroHeaderProps {
   activeNav: NavItem;
@@ -76,10 +75,7 @@ export const HeroHeader: React.FC<HeroHeaderProps> = ({
       >
         <div className="relative w-11 h-11 sm:w-12 sm:h-12 rounded-full overflow-hidden flex-shrink-0 bg-transparent border-none">
           <img
-            src="https://lh3.googleusercontent.com/d/1ll9uHgiJWznxI0I45oylYcpbhoFS3IIy"
-            onError={(e) => {
-              (e.target as HTMLImageElement).src = n3Logo;
-            }}
+            src="https://lh3.googleusercontent.com/d/12MtKjruk9v0BX7RbcurEtFSuYOKmME7E"
             alt="PROJECT N3 ORGANIZER Logo"
             className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
             loading="eager"
